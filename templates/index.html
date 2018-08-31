@@ -5,13 +5,13 @@
 
 <title>Lost Footsteps</title>
 
-<link rel="icon" sizes="192x192" href="img/myan.PNG">
+<link rel="icon" sizes="192x192" href="{{url_for('static',filename='img/myan.PNG')}}">
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" value="Explorations in Myanmar and global history">
 
 
-<link rel="apple-touch-icon-precomposed" href="myan.PNG">
+<link rel="apple-touch-icon-precomposed" href="{{url_for('static',filename='myan.PNG')}}">
 
 <link rel="shortcut icon" href="https://lostfootsteps.org/themes/history-data-material-lite/assets/images/Flag.PNG">
 
@@ -20,15 +20,15 @@
 <link rel="stylesheet" href="https://lostfootsteps.org/combine/c153df9afa18816f74c0fb6218ca3f38-1528273564">
 <div id="fb-root"></div>
 <link rel="stylesheet" href="https://lostfootsteps.org/combine/c5a98e1e916e601ccdbc95fe02795969-1523348929">
-<link rel="stylesheet" href="css/material.css">
-    <script src="js/material.js"></script>
+<link rel="stylesheet" href="{{url_for('static',filename='css/material.css')}}">
+    <script src="{{url_for('static',filename='js/material.js')}}"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-<script type="text/javascript" src="js/materialize.js"></script>
+<link type="text/css" rel="stylesheet" href="{{url_for('static',filename='css/materialize.css')}}"  media="screen,projection"/>
+<script type="text/javascript" src="{{url_for('static',filename='js/materialize.js')}}"></script>
           <style>
         .home-header {
-          background-image:url(img/Flag.PNG);
+          background-image:url({{url_for('static',filename='img/Flag.PNG')}});
         }
 		.overlay_wrapper
 		{
@@ -84,7 +84,7 @@
 		
 <div class="mdl-grid category-list">
 			<div class="mdl-cell mdl-cell--4-col category-wrapper">
-													<figure class="is-selected" style="background-image:url(img/ehistory%20-%20Copy.PNG) ">
+				<figure class="is-selected" style="background-image:url({{url_for('static',filename='img/ehistory%20-%20Copy.PNG')}})">
 				<figcaption>
 					<h4>Contemporary Myanmar and the World (1962-2018)</h4>
 					<!-- Add Description on Hover and Hide Title if the description text are not long -->
@@ -93,7 +93,7 @@
 			</figure>
 		</div>
 			<div class="mdl-cell mdl-cell--4-col category-wrapper">
-													<figure class="section-title" style="background-image:url(img/history.PNG) ">
+				<figure class="section-title" style="background-image:url({{url_for('static',filename='img/history.PNG')}}) ">
 				<figcaption>
 					<h4>The 1950s at Home and Abroad</h4>
 					<!-- Add Description on Hover and Hide Title if the description text are not long -->
@@ -102,7 +102,7 @@
 			</figure>
 		</div>
 			<div class="mdl-cell mdl-cell--4-col category-wrapper">
-													<figure class="tl-headline" style="background-image:url(img/contemporary.PNG) ">
+				<figure class="tl-headline" style="background-image:url({{url_for('static',filename='img/contemporary.PNG')}}) ">
 				<figcaption>
 					<h4>Independence and Civil War (1945-1951)</h4>
 					<!-- Add Description on Hover and Hide Title if the description text are not long -->
@@ -129,7 +129,7 @@
     <div class="col s12 m5">
       <div class="card">
         <div class="card-image">
-		<p>	<img src="img/Thibaw.jpg" border="10px">
+		<p>	<img src="{{url_for('static',filename='img/Thibaw.jpg')}}" border="10px">
 		<span class="card-title"><h4>Thibaw Min</h4><br>King Of Myanmar</span>
         </div>
         <div class="card-content">
